@@ -188,9 +188,42 @@ main > .announcement-box{
     align-items: center;
 }
 
+main > .announcement-box > .disp-info-box{
+    height: 10rem;
+    width: 60vw;
+    background-color: #ecaf3e;
+    box-shadow: #ffd17c 0px 50px 36px -28px inset;
+    color: var(--primary-color);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main > .announcement-box > .disp-info-box > .call-out{
+    width: 35rem;
+    padding-right: 2rem;
+}
+
+main > .announcement-box > .disp-info-box > .call-out *{
+    width: 35rem;
+    padding-right: 2rem;
+    text-align: start;
+}
+
+main > .announcement-box > .disp-info-box > .sign-up-box #sign-up-btn{
+    background-color: #677e99;
+    box-shadow: #292e35 0px -50px 36px -28px inset;
+}
+
+main > .announcement-box > .disp-info-box > .sign-up-box #sign-up-btn:hover {
+    box-shadow: none;
+    transition-duration: 0.1s;
+}
+
 footer{
     background-color: var(--primary-color);
-    height: 10rem;
+    height: 7rem;
     display: flex;
     justify-content: center;
     align-items: center;
