@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;800&display=swap');
+
+:root {
+    --primary-color: #1D2937;
+    --text-color: white;
+    --padding-main-box: 3rem 0;
+    --margin-side: 15vw;
+    --font-family: "Poppins", sans-serif;
+}
+
+* {
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#sign-up-btn {
+    border: none;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.5rem 2rem;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+    background-color: #ecaf3e;
+    box-shadow: #d4dd80 0px -50px 36px -28px inset;
+}
+
+#sign-up-btn:hover {
+    box-shadow: none;
+    transition-duration: 0.1s;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    padding: 10px 0;
+    text-align: center;
+}
+
+header > nav > .header-container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 var(--margin-side);
+}
+
+header > nav > .header-container > .header-item { 
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+header > nav > .header-container > .hdr-logo { 
+    justify-content: flex-start;
+    flex: 1 1 40%;
+}
+
+header > nav > .header-container > .hdr-sub { 
+    flex: 1 1 auto;
+}
+
+header > nav > .header-container > .header-item > .logo { 
+    padding: 10px;
+    position: relative;
+    right: 10px;
+}
+
+header > nav > .header-container > .header-item a { 
+    text-decoration: none;
+    color: var(--text-color);
+    align-items: center;
+}
+
+header > .main-box {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    padding: var(--padding-main-box);
+    text-align: center;
+}
+
+header > .main-box > .info-box {
+    display: flex;
+    margin: 0 var(--margin-side);
+}
+
+header > .main-box > .info-box > .info-text {
+    flex: 1 1 50%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+    padding-right: 3vw;
+}
+
+header > .main-box > .info-box > .info-text > .info-title{
+    padding-bottom: 1rem;
+    font-weight: 800;
+    font-size: xx-large;
+}
+
+header > .main-box > .info-box > .info-text > .sign-up-box{
+    padding-top: 2.5rem;
+    display: flex;
+}
+
+header > .main-box > .info-box > .info-img {
+    position: relative;
+    flex: 1 1 50%;
+    display: flex;
+    min-width: 50%;
+    min-height: 22rem;
+}
+
+header > .main-box > .info-box > .info-img img{
+    position: absolute;
+    right: 0;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    border: #ecaf3e 4px solid;
+}
+
+main {
+    padding: 10px 0;
+    text-align: center;
+}
+
+main h1{
+    color: #1D2937;
+    font-size: x-large;
+}
+
+main > .about-box{
+    padding-top: 3rem;
+    margin: 0 var(--margin-side);
+    height: 30rem;
+}
+
+main > .about-box > .sub-info{
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+main > .about-box > .sub-info > .sub-text-img{
+    max-width: 10rem;
+}
+
+main > .about-box > .sub-info > .sub-text-img img{
+    border-radius: 20px;
+    border: #ecaf3e 4px solid;
+}
+
+main > .quote-box{
+    background-color: #E5E7EB;
+    padding: 0 var(--margin-side);
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main > .quote-box > .quote-container{
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: 200;
+}
+
+main > .quote-box > .quote-container > p{
+    color: #1D2937;
+    padding: 0 6rem;
+}
+
+main > .quote-box > .quote-container > h2{
+    font-size: xx-large;
+    font-style: normal;
+    font-weight: 600;
+    text-align: right;
+    color: #ecaf3e;
+}
+
+main > .announcement-box{
+    padding: 0 var(--margin-side);
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    background-color: var(--primary-color);
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    color: white;
+    font-weight: 100;
+}
